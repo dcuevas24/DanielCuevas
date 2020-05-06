@@ -14,10 +14,10 @@
         <nav>
           <ol>
             <li>
-              <a href="">Portafolio</a>
+              <a href="#portfolio">Portafolio</a>
             </li>
             <li>
-              <a href="">contacto</a>
+              <a href="#contact">contacto</a>
             </li>
           </ol>
         </nav>
@@ -36,7 +36,7 @@
         alt="imagen Principal del sitio"
       />
     </section>
-    <section>
+    <section id="portfolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article>
         <h3>Bobinando</h3>
@@ -47,7 +47,11 @@
         <p>
           <small
             ><strong>Puedes verlo en:</strong>
-            https://www.youtube.com/bobinando</small
+            <a
+              href="https://www.youtube.com/bobinando?sub_confirmation=1"
+              target="_blank"
+              >https://www.youtube.com/bobinando</a
+            ></small
           >
         </p>
         <p>
@@ -63,10 +67,10 @@
         />
       </article>
     </section>
-    <section>
+    <section id="contact">
       <form action="/suscripcion/">
         <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu email" />
+        <input type="text" placeholder="Déjame tu email" id="email" />
         <button>Enviar</button>
       </form>
     </section>
