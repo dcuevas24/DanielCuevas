@@ -9,4 +9,23 @@ h4,
 h5,
 h6 {
   font-family: Spartan;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.5em;
+  letter-spacing: -0.5px;
+}
+
+.hero {
+  height: 300px;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
 }
