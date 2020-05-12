@@ -1,3 +1,5 @@
+/*Azul Oscuro: #1c1f33 */
+
 body {
   font-family: "Source Sans Pro";
 }
@@ -16,10 +18,16 @@ h1 {
   font-size: 30px;
   line-height: 1.5em;
   letter-spacing: -0.5px;
+  color: white;
 }
 
 .hero {
-  height: 300px;
+  height: 400px;
+  background-image: url("../Imagenes/Principal.jpg");
+  background-color: #1c1f33;
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .project-details {
@@ -28,4 +36,14 @@ h1 {
 
 .project-imageContainer {
   width: 500px;
+}
+
+.header {
+  background-color: #1c1f33;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
 }
