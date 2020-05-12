@@ -1,4 +1,5 @@
 /*Azul Oscuro: #1c1f33 */
+/*Rojo: #E74C3C*/
 
 body {
   font-family: "Source Sans Pro";
@@ -19,6 +20,10 @@ h1 {
   line-height: 1.5em;
   letter-spacing: -0.5px;
   color: white;
+}
+
+h1 strong {
+  color: #e74c3c;
 }
 
 .hero {
