@@ -3,6 +3,7 @@
 
 body {
   font-family: "Source Sans Pro";
+  margin: 0;
 }
 
 h1,
@@ -33,6 +34,19 @@ h1 strong {
   background-size: 300px 400px;
   background-repeat: no-repeat;
   background-position-x: right;
+}
+
+.portfolio {
+  background-color: #fafafa;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
 }
 
 .project-details {
