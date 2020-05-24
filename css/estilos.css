@@ -6,6 +6,17 @@ body {
   margin: 0;
 }
 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0 0 0 50px;
+}
+
 h1,
 h2,
 h3,
@@ -17,36 +28,72 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.5em;
   letter-spacing: -0.5px;
   color: white;
+  margin: 0;
 }
 
 h1 strong {
   color: #e74c3c;
 }
 
+h2 {
+  color: #e74c3c;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
 .hero {
   height: 400px;
-  background-image: url("../Imagenes/Principal.jpg");
-  background-color: #1c1f33;
-  background-size: 300px 400px;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  background-color: #1c1f33f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-imagen {
+  object-fit: cover;
 }
 
 .portfolio {
   background-color: #fafafa;
+  padding: 20px;
 }
 
 .project {
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-chanel,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.project strong {
+  font-family: Spartan;
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-details {
@@ -60,9 +107,109 @@ h1 strong {
 .header {
   background-color: #1c1f33;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer {
+  color: white;
+  background-color: #1c1f33;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #e74c3c;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 20px;
+}
+
+.social-link.twitter {
+  background-image: url(../Imagenes/twitter.svg);
+}
+
+.social-link.facebook {
+  background-image: url(../Imagenes/facebook.svg);
+}
+
+.social-link.instagram {
+  background-image: url(../Imagenes/instagram.svg);
+}
+
+.social-link.github {
+  background-image: url(../Imagenes/github.svg);
+}
+
+.form-email input {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gray;
+  padding: 5px 20px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
 }
