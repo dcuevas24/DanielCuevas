@@ -213,3 +213,17 @@ h2 {
   align-items: inherit;
   height: inherit;
 }
+
+/*------- Inicia los @media, desktop first empezar desde el mas grande*/
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
